@@ -1,0 +1,22 @@
+{
+  "name": "dibwecoop",
+  "version": "1.0.0",
+  "description": "dibwe coop official  website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herisatry/dibwecoop.git"
+  },
+  "keywords": [
+    "dibwe"
+  ],
+  "author": "herisatry Lubaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herisatry/dibwecoop/issues"
+  },
+  "homepage": "https://github.com/herisatry/dibwecoop#readme"
+}
