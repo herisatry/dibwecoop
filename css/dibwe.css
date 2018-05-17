@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,600,700,900');
 
 *{
     margin: 0;
@@ -13,4 +13,43 @@ body{
     font-size: 16px;
     line-height: 1.7;
     color: #777;
+}
+
+.menu-bar{
+    text-transform: uppercase;
+    }
+
+.logo-box{
+    background-color: #fff;
+    padding-left:20px;
+    color: #000;
+}
+
+.menu-box{
+    background-color: #000;
+    color: #fff;
+}
+
+.banner{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,hsla(111, 55%, 64%, 0.8),hsla(160, 64%, 43%, 0.8)) , url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-content{
+    margin:30px 75px 0 75px;
+}
+
+.image-box{
+    height: 600px;
+    width: 450px;
+}
+
+.text-box{
+    height: 600px;
+    width: 450px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }

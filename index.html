@@ -6,9 +6,86 @@
     <title>DIBWE COOPERATIVE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/dibwe.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/nav.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
-    <h1>HELLO WORLD!!!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti nam quas? Autem impedit amet tempora cupiditate at esse consequatur optio ullam. Reprehenderit velit ut et, vel at ea sit.</p>
+    <header class="menu-bar w3-row">
+        <div class="logo-box w3-col m8 w3-left">
+            <h2>DIBWE COOPERATIVE</h2>
+        </div>
+        <div class="menu-box w3-col m4 w3-center">
+            <h2>
+                <span>MENU</span>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </h2>                           
+        </div>
+        <div class="banner w3-col m12">
+            <!--tag line goes here-->
+        </div>
+    </header>
+<!-- menu overlay starts here -->
+    <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+    </div>
+          
+          <script>
+          function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+          }
+          
+          function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+          }
+          </script>    
+<!-- MENU overlay ends here -->
+
+<!--starts submenu bar-->
+<div class="submenu w3-row">
+    <div class="menu-box w3-col m4 w3-center"><h2>SUBMENU BOX</h2></div>
+    <div class="w3-col m8 "></div>
+</div>
+
+<!--ends submenu bar-->
+<!--main content image-right stars here-->
+<div class="w3-row main-content">
+        <div class="w3-col m6 w3-center text-box">
+            <h2>TITLE GOES HERE</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam excepturi fuga repudiandae minima, molestias corrupti eaque laboriosam quae animi quas suscipit perferendis ex quam assumenda, temporibus accusamus nihil voluptatem maxime.
+          Aspernatur exercitationem quae porro animi enim! At maiores reprehenderit a similique consequatur tempora veritatis sint qui ipsum illo fugit consequuntur minus, eum voluptatem totam, iste, recusandae rerum earum facere sapiente.
+          Voluptate eligendi at sunt natus, asperiores repellat facilis, hic tenetur rerum quo qui recusandae? Assumenda autem inventore rem vero nulla? Incidunt asperiores quam numquam, consequuntur expedita quibusdam ipsa quo ab?
+          Ab tenetur nulla numquam magni voluptatem et labore laboriosam nihil atque, minus sed neque exercitationem officia, dolores amet minima odio rem repellat accusamus consequuntur. Consectetur voluptas quia adipisci distinctio rerum!</p>
+        </div>
+        <div class="w3-col m6 image-box w3-center">
+          <img src="http://via.placeholder.com/600x600">
+        </div>
+        <div class="w3-col m6 image-box w3-center">
+                <img src="http://via.placeholder.com/600x600">
+        </div>
+        <div class="w3-col m6 w3-center text-box">
+                <h2>TITLE GOES HERE</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam excepturi fuga repudiandae minima, molestias corrupti eaque laboriosam quae animi quas suscipit perferendis ex quam assumenda, temporibus accusamus nihil voluptatem maxime.
+          Aspernatur exercitationem quae porro animi enim! At maiores reprehenderit a similique consequatur tempora veritatis sint qui ipsum illo fugit consequuntur minus, eum voluptatem totam, iste, recusandae rerum earum facere sapiente.Voluptate eligendi at sunt natus, asperiores repellat facilis, hic tenetur rerum quo qui recusandae? Assumenda autem inventore rem vero nulla? Incidunt asperiores quam numquam, consequuntur expedita quibusdam ipsa quo ab?
+          Ab tenetur nulla numquam magni voluptatem et labore laboriosam nihil atque, minus sed neque exercitationem officia, dolores amet minima odio rem repellat accusamus consequuntur. Consectetur voluptas quia adipisci distinctio rerum!</p>
+        </div>
+        <div class="w3-col m6 w3-center text-box">
+                <h2>TITLE GOES HERE</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam excepturi fuga repudiandae minima, molestias corrupti eaque laboriosam quae animi quas suscipit perferendis ex quam assumenda, temporibus accusamus nihil voluptatem maxime.
+              Aspernatur exercitationem quae porro animi enim! At maiores reprehenderit a similique consequatur tempora veritatis sint qui ipsum illo fugit consequuntur minus, eum voluptatem totam, iste, recusandae rerum earum facere sapiente.
+              Voluptate eligendi at sunt natus, asperiores repellat facilis, hic tenetur rerum quo qui recusandae? Assumenda autem inventore rem vero nulla? Incidunt asperiores quam numquam, consequuntur expedita quibusdam ipsa quo ab?
+              Ab tenetur nulla numquam magni voluptatem et labore laboriosam nihil atque, minus sed neque exercitationem officia, dolores amet minima odio rem repellat accusamus consequuntur. Consectetur voluptas quia adipisci distinctio rerum!</p>
+            </div>
+            <div class="w3-col m6 image-box w3-center">
+              <img src="http://via.placeholder.com/600x600">
+            </div>
+      </div>
+<!--main content ends here-->
 </body>
 </html>
