@@ -15,12 +15,17 @@ body{
     color: #777;
 }
 
+a{
+    text-decoration: none;
+}
+
 .menu-bar{
     text-transform: uppercase;
     }
 
 .logo-box{
     background-color: #fff;
+    font-weight: 700 ;
     padding-left:20px;
     color: #000;
 }
@@ -28,6 +33,19 @@ body{
 .menu-box{
     background-color: #000;
     color: #fff;
+    text-decoration: none;
+}
+.menu-box-items{
+    background-color: #000;
+    padding: 15px 20px;
+    margin: 0;
+    color: #fff;
+
+}
+
+.menu-box-items:hover{
+    background-color: darkgrey;
+    color: #000;
 }
 
 .banner{
@@ -39,8 +57,7 @@ body{
 
 .main-content{
     margin:30px 75px 0 75px;
-}
-
+} 
 .image-box{
     height: 600px;
     width: 450px;
@@ -52,4 +69,33 @@ body{
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.calltoaction{
+    margin-top: 100px;
+    height: 250px;
+    padding-top: 4%;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 3.0;
+}
+
+.adress-box{
+    margin-top: 50px;
+    padding-top: 4%;
+    height: 250px;
+    text-transform: uppercase;
+}
+
+.btn{
+    border: #fff solid 3px;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
 }
