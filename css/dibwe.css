@@ -72,19 +72,17 @@ a{
 }
 
 .calltoaction{
-    margin-top: 100px;
+    margin-top: 50px;
     height: 250px;
-    padding-top: 4%;
     background-color: #000;
     color: #fff;
     text-transform: uppercase;
-    line-height: 3.0;
+    line-height: 2.5;
 }
 
 .adress-box{
     margin-top: 50px;
-    padding-top: 4%;
-    height: 250px;
+    height: 150px;
     text-transform: uppercase;
 }
 
